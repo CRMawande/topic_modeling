@@ -1,6 +1,18 @@
-venv\ 
-__pycache__\ 
-*.pyc 
-data\raw\* 
-data\processed\* 
-*.ipynb_checkpoints\ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+
+# VSCode settings
+.vscode/
+
